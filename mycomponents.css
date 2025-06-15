@@ -1,0 +1,32 @@
+/* :root {
+  --blue: #1c7ed6;
+} */
+/* BUTTONS */
+.c-btn {
+  padding: 2rem 3rem;
+  font-family: "Inter", sans-serif;
+  cursor: pointer;
+  border-radius: 8px;
+  box-shadow: 4px 0px 5px 0px grey;
+  text-align: center;
+  text-decoration: none;
+  font-weight: normal;
+}
+.c-btn-primary {
+  background-color: #1c7ed6;
+  color: white;
+  transition: 0.1s;
+}
+.c-btn-secondary {
+  background-color: #e03131;
+  color: white;
+  transition: 0.1s;
+}
+.c-btn-primary:hover,
+.c-btn-primary:active,
+.c-btn-secondary:hover,
+.c-btn-secondary:active {
+  transform: scale(1.1, 1.1);
+}
+
+/*  */
